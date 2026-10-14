@@ -10,7 +10,7 @@
 
 | Репозитории | Лицензия | Как принимается вклад |
 |---|---|---|
-| gate4ai, relay, tray | FSL-1.1-ALv2 | **CLA** (подписывается один раз через CLA Assistant в первом pull request): лицензиар сохраняет право выпускать версии под FSL и через два года — под Apache-2.0 |
+| gate4ai, relay | FSL-1.1-ALv2 | **CLA** (подписывается один раз через CLA Assistant в первом pull request): лицензиар сохраняет право выпускать версии под FSL и через два года — под Apache-2.0 |
 | gate4ai-* (коннекторы) | AGPL-3.0-only + исключение для хоста | **DCO**: `git commit -s` |
 | sdk-go | Apache-2.0 | **DCO**: `git commit -s` |
 | registry | CC0 | DCO |
