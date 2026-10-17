@@ -4,10 +4,10 @@
 
 | Репозиторий | Что это | Лицензия |
 |---|---|---|
-| [gate4ai](https://github.com/gate4ai/gate4ai) | ядро: daemon, политики, подтверждения, журнал, Vault, MCP, Web UI, WASM-хост коннекторов, магазин; бинарники `gate4ai` и трей `gate4ai-tray` | FSL-1.1-ALv2 |
+| [gate4ai](https://github.com/gate4ai/gate4ai) | ядро: daemon, политики, подтверждения, журнал, Vault, MCP, Web UI, WASM-хост коннекторов, магазин; бинарники `gate4ai` и трей `gate4ai-tray` | AGPL-3.0 + исключение для коннекторов |
 | [sdk-go](https://github.com/gate4ai/sdk-go) | SDK коннекторов: манифест, ABI, функции хоста, тестовый хост | Apache-2.0 |
-| [gate4ai-mail](https://github.com/gate4ai/gate4ai-mail), [gate4ai-files](https://github.com/gate4ai/gate4ai-files), [gate4ai-browser](https://github.com/gate4ai/gate4ai-browser), `gate4ai-*` | коннекторы (WASM-модули) | AGPL-3.0 + исключение для хоста |
-| [relay](https://github.com/gate4ai/relay) | необязательный relay: публичный HTTPS-адрес устройства без своего домена | FSL-1.1-ALv2 |
+| [gate4ai-mail](https://github.com/gate4ai/gate4ai-mail), [gate4ai-files](https://github.com/gate4ai/gate4ai-files), [gate4ai-browser](https://github.com/gate4ai/gate4ai-browser), `gate4ai-*` | коннекторы (WASM-модули) | AGPL-3.0 |
+| [relay](https://github.com/gate4ai/relay) | необязательный relay: публичный HTTPS-адрес устройства без своего домена | AGPL-3.0 |
 | [registry](https://github.com/gate4ai/registry) | индекс магазина коннекторов | CC0 |
 
-FSL-1.1-ALv2: исходник открыт, запрещено только конкурирующее использование; каждая версия через два года становится Apache-2.0.
+AGPL-3.0: код открыт, доработки — тоже, в том числе когда изменённая версия работает как сервис. Исключение в ядре разрешает коннекторам и auth-модулям, работающим через ABI, любую лицензию.
