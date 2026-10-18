@@ -4,7 +4,7 @@
 
 | Репозиторий | Что это | Лицензия |
 |---|---|---|
-| [gate4ai](https://github.com/gate4ai/gate4ai) | ядро: daemon, политики, подтверждения, журнал, Vault, MCP, Web UI, WASM-хост коннекторов, магазин; бинарники `gate4ai` и трей `gate4ai-tray` | AGPL-3.0 + исключение для коннекторов |
+| [gate4ai](https://github.com/gate4ai/gate4ai) | ядро: daemon, политики, подтверждения, журнал, Vault, MCP, Web UI, WASM-хост коннекторов, магазин; бинарники `gate4ai` и трей `gate4ai-tray` | AGPL-3.0 |
 | [sdk-go](https://github.com/gate4ai/sdk-go) | SDK коннекторов: манифест, ABI, функции хоста, тестовый хост | Apache-2.0 |
 | [gate4ai-mail](https://github.com/gate4ai/gate4ai-mail), [gate4ai-browser](https://github.com/gate4ai/gate4ai-browser), `gate4ai-*` | коннекторы (WASM-модули) | AGPL-3.0 |
 | [relay](https://github.com/gate4ai/relay) | необязательный relay: публичный HTTPS-адрес устройства без своего домена | AGPL-3.0 |
