@@ -4,10 +4,7 @@
 
 | Репозиторий | Что это | Лицензия |
 |---|---|---|
-| [gate4ai](https://github.com/gate4ai/gate4ai) | ядро: daemon, политики, подтверждения, журнал, Vault, MCP, Web UI, WASM-хост коннекторов, магазин; бинарники `gate4ai` и трей `gate4ai-tray` | AGPL-3.0 |
-| [sdk-go](https://github.com/gate4ai/sdk-go) | SDK коннекторов: манифест, ABI, функции хоста, тестовый хост | Apache-2.0 |
-| [gate4ai-mail](https://github.com/gate4ai/gate4ai-mail), [gate4ai-browser](https://github.com/gate4ai/gate4ai-browser), `gate4ai-*` | коннекторы (WASM-модули) | AGPL-3.0 |
-| [relay](https://github.com/gate4ai/relay) | необязательный relay: публичный HTTPS-адрес устройства без своего домена | AGPL-3.0 |
+| [gate4ai](https://github.com/gate4ai/gate4ai) | всё в одном репозитории и одном релизе: ядро (daemon, политики, подтверждения, журнал, Vault, MCP, Web UI, хост коннекторов, магазин; бинарники `gate4ai` и трей `gate4ai-tray`), [SDK коннекторов](https://github.com/gate4ai/gate4ai/tree/main/sdk-go), [официальные коннекторы](https://github.com/gate4ai/gate4ai/tree/main/connectors), необязательный [relay](https://github.com/gate4ai/gate4ai/tree/main/relay) (публичный HTTPS-адрес устройства без своего домена) | AGPL-3.0; SDK — Apache-2.0 |
 | [registry](https://github.com/gate4ai/registry) | индекс магазина коннекторов | CC0 |
 
-AGPL-3.0: код открыт, доработки — тоже, в том числе когда изменённая версия работает как сервис. Исключение в ядре разрешает коннекторам и auth-модулям, работающим через ABI, любую лицензию.
+AGPL-3.0: код открыт, доработки — тоже, в том числе когда изменённая версия работает как сервис. SDK под Apache-2.0: коннектор на нём может иметь любую лицензию, совместимую с AGPL-3.0 (так его примет магазин).
