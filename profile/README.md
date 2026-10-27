@@ -11,6 +11,6 @@
 |---|---|---|
 | [gate4ai](https://github.com/gate4ai/gate4ai) | всё в одном репозитории и одном релизе: ядро (daemon, политики, подтверждения, журнал, Vault, MCP, Web UI, встроенные Браузер и Файлы, хост коннекторов, магазин; бинарники `gate4ai` и трей `gate4ai-tray`), [SDK коннекторов](https://github.com/gate4ai/gate4ai/tree/main/sdk-go), необязательный [relay](https://github.com/gate4ai/gate4ai/tree/main/relay) (публичный HTTPS-адрес устройства без своего домена), образ `ghcr.io/gate4ai/gate4ai` | AGPL-3.0; SDK — Apache-2.0 |
 | [registry](https://github.com/gate4ai/registry) | индекс магазина коннекторов | CC0 |
-| [www](https://github.com/gate4ai/www) | сайт gate4.ai и установщики | AGPL-3.0 |
+| [www](https://github.com/gate4ai/www) | сайт gate4.ai и установщики | — (без лицензии) |
 
 AGPL-3.0: код открыт, доработки — тоже, в том числе когда изменённая версия работает как сервис. SDK под Apache-2.0: коннектор на нём может иметь любую лицензию, совместимую с AGPL-3.0 (так его примет магазин). Внешний вклад — [CONTRIBUTING.md](https://github.com/gate4ai/.github/blob/main/CONTRIBUTING.md) (CLA и DCO).
